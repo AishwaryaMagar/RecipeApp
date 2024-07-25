@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NewRecipeApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#0C0C0C</item>
+        <item name="colorButtonNormal">#0C0C0C</item>
+    </style>
+
+    <style name="Theme.NewRecipeApp" parent="Base.Theme.NewRecipeApp" />
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="ButtonShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">1dp</item>
+    </style>
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/darkGray</item>
+        <item name="cornerRadius">1dp</item> <!-- If you want to use rounded corners -->
+    </style>
+
+</resources>
